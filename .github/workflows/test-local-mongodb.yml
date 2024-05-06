@@ -5,10 +5,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - github-workflow
 
 # Defines the jobs that will be executed
 jobs:
