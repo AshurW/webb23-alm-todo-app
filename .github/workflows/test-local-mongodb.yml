@@ -3,12 +3,12 @@ name: Node.js CI
 
 # Defines when the workflow should run
 on:
-  # push:
-  #   branches:
-  #     - main
-  # pull_request:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 # Defines the jobs that will be executed
 jobs:
